@@ -1,0 +1,230 @@
+<html lang="en">
+  <title>css</title>
+  <head>
+    
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <style type="text/css">
+    @viewport{
+        zoom: 1;
+        width:extend-to-zoom;
+    }
+    @-ms-viewport{
+         zoom: 1;
+        width:extend-to-zoom;
+    }
+      * {
+        box-sizing: border-box;
+      }
+
+      #body {
+
+        background-color:#11324d;
+        
+      }
+
+      #header {
+        background: #11324d;
+        height: 150px;
+        padding: 30px;
+        text-align: center;
+        
+        color: white;
+      }
+      #footer {
+        background: #11324d;
+        height: 150px;
+        clear: both;
+      }
+      #section {
+           
+           
+            
+            
+           stroke-width: 30px;
+            
+      }
+      #col1 {
+        font-size: 16px;
+        font-family: sans-serif;
+         padding: 10px;
+         padding-top: 60px;
+         
+         color: black;
+        background: #f6f6f6;;
+        width: 20%;
+        
+      }
+      #col2 {
+        background: #64b4c8;
+        width: 40%;
+      }
+       #carousel-indicators li {
+    border-radius: 5px;
+    border-color: #f6f6f6;
+    width: 8px;
+    height: 8px;
+    background-color: #64b4c8;
+        }
+      #col3 {
+        background: #f7dd72;
+        width: 40%;
+        height: 300px;
+      }
+      #mainContent{
+          margin-left: 10%;
+          margin-right: 10%;
+           -webkit-flex-direction: column;
+    flex-direction: column;
+    widows: border -30%;
+    
+     content:width=device-width, initial-scale=1;
+      }
+      .column {
+          
+        width: 33%;
+        height: 300px;
+        float: left;
+      }
+     
+    </style>
+  </head>
+  <div id="body">
+  <body>
+    
+    <div id="header" style="font-size: 35px;">DelphianLogic In Action 
+        <p style="font-size: 15px; padding-top: 20px;">Lorem ispum dolor sit amet, comsectetuer adipiscing elit. Aenean commodo </p>
+    </div>
+    <div id="section" class="d-flex align-items-center">
+    <section >
+    <div id="mainContent">
+        <div id="col1" class="column"  color="black" >
+            <ul class="nav" >
+               
+                
+                <li><a><button button type="button" class="btn btn-secondary btn-block " padding="50px" color="black"width="50px"  ><img src="full-stack-test-master_files_images_DL-learning.svg"style="width:35px"/>Learning</button></a></li>
+                <li><a><button button type="button" class="btn btn-secondary btn-block "  padding="50px" width="50px"><img src="full-stack-test-master_files_images_DL-technology.svg"style="width:35px" />Technology</button></a></li>
+                <li><a><button button type="button" class="btn btn-secondary btn-block "  padding="50px" width="50px"><img src="full-stack-test-master_files_images_DL-communication.svg"style="width:35px" />Communication</button></a></li>
+                
+            </ul>
+        </div>
+
+<div>
+
+        <div id="col2" class="column">
+            
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div id="carousel-indicators">
+                    <ul class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ul>
+                </div>
+                <div class="carousel-inner">
+            
+                    <div class="item active" style="width:100%; height:300px">
+                       
+                        <div style="text-align: center; color: #f6f6f6;padding:50px;">
+                            <h6 >DIGITAL LEARNING INFRASTRUTURE</h6>
+                            <p style="font-size:25px;font-weight: bold;font-variant:small-caps; ">Usability Enhancement and Training for Transaction Portal for Customers </p>
+                            <p style="padding:5px">Learn More <img src="full-stack-test-master_files_images_arrow-right.svg" /></p>
+                        </div>
+                    </div>
+            
+                    <div class="item"style="width:100%; height:300px">
+                        
+                        <div style="text-align: center; color: #f6f6f6;padding:50px;">
+                            <h6>ADVANCE TECHNOLOGY INFRASTRUTURE</h6>
+                            <p style="font-size:25px;font-weight: bold;font-variant:small-caps; ">Usability Enhancement and Training for
+                                Transaction Portal for Customers </p>
+                            <p style="padding:5px">Learn More <img src="full-stack-test-master_files_images_arrow-right.svg" /></p>
+                        </div>
+                        
+                    </div>
+            
+                    <div class="item"style="width:100%; height:300px">
+                        
+                        
+                        <div style="text-align: center; color: #f6f6f6;padding:50px;">
+                            <h6>FRIENDLY COMMUNICATION WITH CUSTOMER</h6>
+                            <p style="font-size:25px;font-weight: bold;font-variant:small-caps; ">Usability Enhancement and Training for
+                                Transaction Portal for Customers </p>
+                            <p style="padding:5px">Learn More <img src="full-stack-test-master_files_images_arrow-right.svg" /></p>
+                        </div>
+                        
+            
+                    </div>
+                    <!-- Left and right controls
+                    <a class=" carousel-control" href="#myCarousel"  data-slide="prev">
+                        <span class=""></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control" href="#myCarousel"  data-slide="next">
+                        <span class=""></span>
+                        <span class="sr-only">Next</span>
+                        
+                    </a>-->
+                </div>
+            
+            </div>
+         </div>
+
+        
+
+
+
+
+        <div id="col3" class="column">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="item active">
+                        <img src="full-stack-test-master_files_images_DL-Learning-1.jpg"  style="width:100%;height:300px;"/>
+        
+                </div>
+
+                <div class="item">
+                    <img src="full-stack-test-master_files_images_DL-Technology.jpg"  style="width:100%;;height:300px;"/>
+        
+                </div>
+
+                 <div class="item">
+                     <img src="full-stack-test-master_files_images_DL-Communication.jpg"  style="width:100%;;height:300px;">
+        
+        
+                     </div>
+                        <!-- Left and right controls-->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                       
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        
+                        <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                    </div>
+
+            
+</div>
+</div>
+</div>
+
+            
+            
+           
+        
+    </section>
+    </div>
+    <div id="footer"></div>
+  </body>
+</div>
+</html>

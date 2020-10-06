@@ -1,0 +1,70 @@
+<html lang="en">
+  <title>css</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+
+      #body {
+        background-color: #09d17e;
+      }
+
+      #header {
+        background: #11324d;
+        height: 100px;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      #footer {
+        background: #11324d;
+        height: 100px;
+        clear: both;
+      }
+      #section {
+        display: -webkit-flex;
+        display: flex;
+        background-color: skyblue;
+      }
+      #col1 {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+
+        display: -webkit-flex;
+        display: flex;
+        background: #f6f6f6;
+        width: 20%;
+      }
+      #col2 {
+        background: #64b4c8;
+        width: 40%;
+      }
+      #col3 {
+        background: #f7dd72;
+        width: 40%;
+      }
+      .column {
+        width: 33%;
+        height: 400px;
+        float: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="header">DelphianLogic In Action</div>
+    <section>
+      <div id="mainContent">
+        <div id="col1" class="column">LEARNING TECHNOLOGY COMMUNICATION</div>
+        <div id="col2" class="column"></div>
+        <div id="col3" class="column"></div>
+      </div>
+    </section>
+    <div id="footer"></div>
+  </body>
+</html>
